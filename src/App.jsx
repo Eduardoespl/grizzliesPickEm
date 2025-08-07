@@ -1,4 +1,5 @@
 import './App.css'
+import { Link } from 'react-router'
 
 function App() {
 
@@ -12,9 +13,9 @@ function App() {
         Inicia sesión para acceder a las predicciones
       </p>
       <div className="login-container">
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <Link to="/landing">
           <button className="login-button">Iniciar sesión</button>
-        </a>
+        </Link>
       </div>
     </>
   )
